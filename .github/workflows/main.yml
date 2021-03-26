@@ -27,9 +27,6 @@ jobs:
 
       - name: merge develop into staging
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           echo "doing a fetch"
           git fetch
 
