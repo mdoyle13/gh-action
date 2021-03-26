@@ -31,6 +31,9 @@ jobs:
           echo "doing a fetch"
           git fetch
 
+          echo "pulling latest develop"
+          git pull
+
           echo "checking out staging branch"
           git checkout staging
 
