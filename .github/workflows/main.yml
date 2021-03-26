@@ -32,7 +32,7 @@ jobs:
           git fetch
 
           echo "pulling latest develop"
-          git pull
+          git pull --allow-unrelated-histories
 
           echo "checking out staging branch"
           git checkout staging
